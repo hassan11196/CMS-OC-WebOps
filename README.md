@@ -36,7 +36,7 @@ The "Wmcore Microservices" extension allows you to efficiently access Wmcore mic
 
 ## Installation
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine, or you can download the zip file and extract it.
 2. Open Google Chrome and go to `chrome://extensions/`.
 3. Enable "Developer mode" in the top-right corner.
 4. Click the "Load unpacked" button and select the directory where you cloned the repository.
@@ -44,8 +44,5 @@ The "Wmcore Microservices" extension allows you to efficiently access Wmcore mic
 
 ## Suggestions and Contributions
 
-We welcome your suggestions and contributions to improve these extensions. Feel free to submit issues, feature requests, or pull requests to help make this project even more valuable to the CMS Offline and Computing community.
+I welcome your suggestions and contributions to improve these extensions. Feel free to submit issues, feature requests, or pull requests to help make this project even more valuable to the CMS Offline and Computing community.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
