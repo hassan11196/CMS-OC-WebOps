@@ -1,0 +1,14 @@
+{
+        "manifest_version": 3,
+        "name": "ReqMgr2 Opener",
+        "version": "1.0",
+        "description": "Open ReqMgr2 Page with selected text as a query parameter.",
+        "permissions": ["contextMenus", "activeTab", "storage"],
+        "background": {
+            "service_worker": "background.js"
+        },
+        "icons": {
+            "48": "icon.png"
+        },
+        "host_permissions": ["http://*/*", "https://*/*" ]
+}
