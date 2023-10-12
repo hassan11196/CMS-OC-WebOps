@@ -7,14 +7,14 @@ This project provides a set of Google Chrome extensions designed to enhance the 
 ### 1. Open Dimas Page
 
 The "Open Dimas Page" extension simplifies the process of accessing Dimas pages, enabling you to quickly navigate to relevant information and resources related to your work.
-<!-- 
-![Open Dimas Page](images/open-dimas-page.png) -->
+
+![Open Dimas Page](./dimas-page/dimas-page.gif)
 
 ### 2. Open ReqMgr2
 
 The "Open ReqMgr2" extension provides a one-click solution for accessing ReqMgr2, an essential tool for managing CMS requests. Save time and effort by eliminating the need to search for ReqMgr2 in your bookmarks or history.
 
-<!-- ![Open ReqMgr2](images/open-reqmgr2.png) -->
+![Open ReqMgr2](./ReqMgr2/eqmgr2-page.png)
 
 ### 3. Open Rucio Web UI
 
