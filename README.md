@@ -1,4 +1,4 @@
-# O&C WebOps
+# Offline and Computing (O&C) WebOps
 
 This project provides a set of Google Chrome extensions designed to enhance the workflow of the CMS Offline and Computing group. These extensions streamline access to essential tools and resources, making your daily tasks more efficient and productive.
 
@@ -21,6 +21,18 @@ The "Open ReqMgr2" extension provides a one-click solution for accessing ReqMgr2
 The "Open Rucio Web UI" extension allows you to easily access the Rucio Web UI, a vital resource for managing CMS data. This extension simplifies the process of navigating to the Rucio Web UI and helps you stay organized.
 
 <!-- ![Open Rucio Web UI](images/open-rucio-web-ui.png) -->
+
+### 4. Jira Search
+
+The "Jira Search" extension provides a quick and convenient way to search and access Jira issues and projects relevant to your work. Easily stay on top of project management and issue tracking within Jira.
+
+<!-- ![Jira Search](images/jira-search.png) -->
+
+### 5. Wmcore Microservices
+
+The "Wmcore Microservices" extension allows you to efficiently access Wmcore microservices, an essential component of CMS Offline and Computing. Simplify your workflow by quickly navigating to these microservices from your browser.
+
+<!-- ![Wmcore Microservices](images/wmcore-microservices.png) -->
 
 ## Installation
 
