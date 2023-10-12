@@ -26,7 +26,7 @@ The "Open Rucio Web UI" extension allows you to easily access the Rucio Web UI, 
 
 The "Jira Search" extension provides a quick and convenient way to search and access Jira issues and projects relevant to your work. Easily stay on top of project management and issue tracking within Jira.
 
-![Jira Search](images/jira-search.gif)
+![Jira Search](./jira-search/jira-search.gif)
 
 ### 5. Wmcore Microservices
 
