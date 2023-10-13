@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "CMS-OC-WebOps",
+    "version": "1.0",
+    "description": "Extensions for Chrome for CMS Offline and Computing.",
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon.png"
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "commands": {}
+}
