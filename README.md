@@ -16,29 +16,46 @@ The "Open ReqMgr2" extension provides a one-click solution for accessing ReqMgr2
 
 ![Open ReqMgr2](./extensions/ReqMgr2/reqmgr2-page.gif)
 
-### 3. Open Rucio Web UI
+### 3. Open Unified
+
+The "Open Unified Pages" extension provides a quick and convenient way to access Unified Pages, the Unified Log of a Workflow and the Error Report of a workflow.
+
+![Open Unified Pages](./extensions/unified/unified.gif)
+
+### 4. Open Rucio Web UI
 
 The "Open Rucio Web UI" extension allows you to easily access the Rucio Web UI, a vital resource for managing CMS data. This extension simplifies the process of navigating to the Rucio Web UI and helps you stay organized.
 
 ![Open Rucio Web UI](./extensions/rucio/open-rucio.gif)
 
-### 4. Jira Search
+### 5. Jira Search
 
 The "Jira Search" extension provides a quick and convenient way to search and access Jira issues and projects relevant to your work. Easily stay on top of project management and issue tracking within Jira.
 
 ![Jira Search](./extensions/jira-search/jira-search.gif)
 
-### 5. Wmcore Microservices
+### 6. Wmcore Microservices
 
 The "Wmcore Microservices" extension allows you to efficiently access Wmcore microservices, an essential component of CMS Offline and Computing. Simplify your workflow by quickly navigating to these microservices from your browser.
 
 ![Wmcore Microservices](./extensions/wmcore-microservices/open-mspileup.gif)
 
+### 7. pMp - PdmV Pages
+
+The "pMp - PdmV Pages" extension provides a quick and convenient way to access PdmV pages relevant to your work. For now there is only option to open pMp Historical page.
+
+![Wmcore Microservices](./extensions/pdmv/pmp.gif)
+
+### 8. WebOps - All in One - (Combined Extension of all the above)
+
+The "WmOps - All in One" extension combines all of the above extensions into a single extension. This extension provides a convenient way to access all of the essential tools and resources you need to get your work done.
+
+![Wmcore Microservices](./WebOps/webops.gif)
+
+
 ## Installation 
 
 You can either install each extension individually, or you can install all of them at once combined.
-
-
 
 1. Clone this repository to your local machine, or you can download the zip file and extract it.
 2. Open Google Chrome and go to `chrome://extensions/`.

@@ -1,0 +1,14 @@
+{
+        "manifest_version": 3,
+        "name": "Unified Shortcuts",
+        "version": "1.0",
+        "description": "Open Unified Reports and Logs with selected text as a query parameter.",
+        "permissions": ["contextMenus", "activeTab", "storage"],
+        "background": {
+            "service_worker": "background.js"
+        },
+        "icons": {
+            "48": "icon.png"
+        },
+        "host_permissions": ["http://*/*", "https://*/*" ]
+}
