@@ -34,13 +34,19 @@ The "Wmcore Microservices" extension allows you to efficiently access Wmcore mic
 
 ![Wmcore Microservices](./extensions/wmcore-microservices/open-mspileup.gif)
 
-## Installation
+## Installation 
+
+You can either install each extension individually, or you can install all of them at once combined.
+
+
 
 1. Clone this repository to your local machine, or you can download the zip file and extract it.
 2. Open Google Chrome and go to `chrome://extensions/`.
 3. Enable "Developer mode" in the top-right corner.
-4. Click the "Load unpacked" button and select the directory where you cloned the repository.
-5. The extensions should now appear in your Chrome toolbar.
+4. Click the "Load unpacked" button and select the directory of the extension you want to install.
+    - If you want to install all of the extensions as a single extension, select the **WmOps** Folder.
+    - If you want to install each extension individually, then just select the folder of the extension you want to install from the extensions folder. i.e 'dimas-page', 'jira-search', etc.
+5. The extensions should now appear in you extensions page.
 
 ## Suggestions and Contributions
 
