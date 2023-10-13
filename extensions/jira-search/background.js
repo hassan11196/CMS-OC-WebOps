@@ -1,7 +1,9 @@
-chrome.contextMenus.create({
-    id: "openJira",
-    title: "Open Jira",
-    contexts: ["selection", "link"],
+chrome.contextMenus.remove('openJira', function () {
+    chrome.contextMenus.create({
+        id: "openJira",
+        title: "Open Jira",
+        contexts: ["selection", "link"],
+    });
 });
 
 chrome.contextMenus.onClicked.addListener(function (info, tab) {

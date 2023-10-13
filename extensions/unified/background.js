@@ -1,9 +1,10 @@
-chrome.contextMenus.create({
-    id: "openUnifiedErrorReport",
-    title: "Open Unified Error Report",
-    contexts: ["selection", "link"],
+chrome.contextMenus.remove('openUnifiedErrorReport', function () {
+    chrome.contextMenus.create({
+        id: "openUnifiedErrorReport",
+        title: "Open Unified Error Report",
+        contexts: ["selection", "link"],
+    });
 });
-
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
     if (info.menuItemId === "openUnifiedErrorReport") {
         const selectedText = info.selectionText.trim(); // Strip leading/trailing whitespace
@@ -11,13 +12,13 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         chrome.tabs.create({ url: url });
     }
 });
-
-chrome.contextMenus.create({
-    id: "openUnifiedLogs",
-    title: "Open Unified Logs",
-    contexts: ["selection", "link"],
+chrome.contextMenus.remove('openUnifiedLogs', function () {
+    chrome.contextMenus.create({
+        id: "openUnifiedLogs",
+        title: "Open Unified Logs",
+        contexts: ["selection", "link"],
+    });
 });
-
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
     if (info.menuItemId === "openUnifiedLogs") {
         const selectedText = info.selectionText.trim(); // Strip leading/trailing whitespace
