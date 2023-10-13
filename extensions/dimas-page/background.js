@@ -1,5 +1,5 @@
 
-chrome.contextMenus.remove('openDimaPage', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openDimaPage",
         title: "Open Dima's Page",

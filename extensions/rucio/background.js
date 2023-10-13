@@ -1,4 +1,4 @@
-chrome.contextMenus.remove('openRucioWebUi', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openRucioWebUi",
     title: "Open Rucio Web Ui",

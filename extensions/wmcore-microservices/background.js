@@ -1,4 +1,4 @@
-chrome.contextMenus.remove('openMSPileup', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openMSPileup",
     title: "Open MS Pileup",
@@ -13,7 +13,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
   }
 });
 
-chrome.contextMenus.remove('openMSTransferor', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openMSTransferor",
     title: "Open MS Transferor",

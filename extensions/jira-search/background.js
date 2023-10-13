@@ -1,4 +1,4 @@
-chrome.contextMenus.remove('openJira', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openJira",
         title: "Open Jira",

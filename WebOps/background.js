@@ -1,5 +1,5 @@
 
-chrome.contextMenus.remove('openDimaPage', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openDimaPage",
         title: "Open Dima's Page",
@@ -14,7 +14,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
     }
 });
 
-chrome.contextMenus.remove('openReqMgr2', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openReqMgr2",
     title: "Open ReqMgr2",
@@ -29,7 +29,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
   }
 });
 
-chrome.contextMenus.remove('openUnifiedErrorReport', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openUnifiedErrorReport",
         title: "Open Unified Error Report",
@@ -43,7 +43,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         chrome.tabs.create({ url: url });
     }
 });
-chrome.contextMenus.remove('openUnifiedLogs', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openUnifiedLogs",
         title: "Open Unified Logs",
@@ -57,7 +57,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         chrome.tabs.create({ url: url });
     }
 });
-chrome.contextMenus.remove('openMSPileup', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openMSPileup",
     title: "Open MS Pileup",
@@ -72,7 +72,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
   }
 });
 
-chrome.contextMenus.remove('openMSTransferor', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openMSTransferor",
     title: "Open MS Transferor",
@@ -85,7 +85,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
     const url = `https://cmsweb.cern.ch/ms-transferor/data/info?request=${encodeURIComponent(selectedText)}`;
     chrome.tabs.create({ url: url });
   }
-});chrome.contextMenus.remove('openJira', function () {
+});chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openJira",
         title: "Open Jira",
@@ -101,7 +101,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
     }
 });
 
-chrome.contextMenus.remove('openPMP', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "opemPMP",
     title: "Open pMp",
@@ -116,7 +116,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
   }
 });
 
-chrome.contextMenus.remove('openRucioWebUi', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openRucioWebUi",
     title: "Open Rucio Web Ui",

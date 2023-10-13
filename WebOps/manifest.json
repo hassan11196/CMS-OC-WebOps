@@ -5,8 +5,8 @@
     "description": "Extensions for Chrome for CMS Offline and Computing.",
     "permissions": [
         "storage",
-        "contextMenus",
-        "activeTab"
+        "activeTab",
+        "contextMenus"
     ],
     "background": {
         "service_worker": "background.js"
@@ -15,8 +15,8 @@
         "48": "icon.png"
     },
     "host_permissions": [
-        "https://*/*",
-        "http://*/*"
+        "http://*/*",
+        "https://*/*"
     ],
     "commands": {}
 }

@@ -1,4 +1,4 @@
-chrome.contextMenus.remove('openPMP', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "opemPMP",
     title: "Open pMp",

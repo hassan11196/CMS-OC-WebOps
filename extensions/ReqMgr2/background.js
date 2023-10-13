@@ -1,4 +1,4 @@
-chrome.contextMenus.remove('openReqMgr2', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
   chrome.contextMenus.create({
     id: "openReqMgr2",
     title: "Open ReqMgr2",

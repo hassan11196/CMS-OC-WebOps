@@ -1,4 +1,4 @@
-chrome.contextMenus.remove('openUnifiedErrorReport', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openUnifiedErrorReport",
         title: "Open Unified Error Report",
@@ -12,7 +12,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
         chrome.tabs.create({ url: url });
     }
 });
-chrome.contextMenus.remove('openUnifiedLogs', function () {
+chrome.runtime.onInstalled.addListener(async () =>{
     chrome.contextMenus.create({
         id: "openUnifiedLogs",
         title: "Open Unified Logs",
