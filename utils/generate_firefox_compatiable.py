@@ -27,14 +27,15 @@ def convert_chrome_to_firefox(chrome_dir, output_dir):
     firefox_dir = os.path.join(output_dir, firefox_dir_name)
     
     if not os.path.exists(firefox_dir):
-        shutil.copytree(chrome_dir, firefox_dir)
+        shutil.copytree(chrome_dir, firefox_dir, ignore=ignore_gif_files)
 
     with open(os.path.join(firefox_dir, 'manifest.json'), 'w') as f:
         json.dump(manifest, f, indent=4)
 
     return firefox_dir
 
-
+def ignore_gif_files(dir, filenames):
+    return [filename for filename in filenames if filename.endswith('.gif')]
 
 def compress_to_zip(directory):
     shutil.make_archive(directory, 'zip', directory)
@@ -58,7 +59,6 @@ if __name__ == "__main__":
             firefox_extension_dir = convert_chrome_to_firefox(full_path, firefox_output_dir)
 
             # Compress directories to zip files
-            compress_to_zip(full_path)
             compress_to_zip(firefox_extension_dir)
 
     print("Conversion and compression completed!")

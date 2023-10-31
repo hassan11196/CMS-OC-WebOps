@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "DAS Page Opener",
+    "version": "1.0",
+    "description": "Open DAS Page with selected text as a query parameter.",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
