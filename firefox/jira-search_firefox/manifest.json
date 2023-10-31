@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Jira Search",
+    "version": "1.0",
+    "description": "Open Jira Search in a new tab with the selected text",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
