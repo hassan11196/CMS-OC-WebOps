@@ -65,6 +65,26 @@ You can either install each extension individually, or you can install all of th
     - If you want to install each extension individually, then just select the folder of the extension you want to install from the extensions folder. i.e 'dimas-page', 'jira-search', etc.
 5. The extensions should now appear in you extensions page.
 
+
+## Chrome Extension Generator
+
+The utility, `create_new_extension.py`, is designed to automate the creation of new Chrome extensions. It will generate the necessary JavaScript code for the extension, a `manifest.json` file, and will also copy an `icon.png` from a specified source folder.
+
+## Prerequisites
+
+- Ensure you have Python 3.x installed on your machine.
+- Clone the repository.
+
+## Usage
+
+Run the script using the following command:
+
+    python ./utils/create_new_extension.py [extension_folder] [extension_name] [base_url]
+
+- extension_folder: The name of the folder where the extension files will be saved.
+- extension_name: The name of the extension (also used as the context menu title).
+- base_url: The base URL to open with the selected text.
+
 ## Suggestions and Contributions
 
 I welcome your suggestions and contributions to improve these extensions. Feel free to submit issues, feature requests, or pull requests to help make this project even more valuable to the CMS Offline and Computing community.
