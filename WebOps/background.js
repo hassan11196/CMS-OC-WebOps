@@ -68,7 +68,7 @@ function loadShortcuts() {
           chrome.contextMenus.create({
             id: menuId,
             title: shortcut.title,
-            contexts: ["selection"], // Context menu available for selected text
+            contexts: ["selection", "link"], // Context menu available for selected text
           });
         } catch (error) {
           console.error(`Error creating context menu for ${menuId}:`, error);
